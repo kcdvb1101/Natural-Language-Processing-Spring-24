@@ -1,3 +1,12 @@
+** Bayesian Model ** 
+
+Abstractly, naive Bayes is a conditional probability model: it assigns probabilities $p(C_k \mid x_1, \ldots, x_n)$ for each of the $K$ possible outcomes or ''classes'' $C_k$ given a problem instance to be classified, represented by a vector $\mathbf{x} = (x_1, \ldots, x_n)$ encoding some $n$ features (independent variables).
+
+The problem with the above formulation is that if the number of features $n$ is large or if a feature can take on a large number of values, then basing such a model on probability tables is infeasible. The model must therefore be reformulated to make it more tractable. Using Bayes' theorem, the conditional probability can be decomposed as:
+
+: $p(C_k \mid \mathbf{x}) = \frac{p(C_k) \ p(\mathbf{x} \mid C_k)}{p(\mathbf{x})} \,$
+
+
 **The Cauchy-Schwarz Inequality**
 $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
 
