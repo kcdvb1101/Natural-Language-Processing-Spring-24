@@ -1,26 +1,10 @@
 **The Cauchy-Schwarz Inequality**
 $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
 
-$$ \section*{Hidden Markov Model}
+** Hidden Markov Model **
 
-\subsection*{State Transition Probabilities:}
-\[
-  P(S_t|S_{t-1}) =
-  \begin{bmatrix}
-    P(S_1|S_1) & P(S_2|S_1) & P(S_3|S_1) \\
-    P(S_1|S_2) & P(S_2|S_2) & P(S_3|S_2) \\
-    P(S_1|S_3) & P(S_2|S_3) & P(S_3|S_3) \\
-  \end{bmatrix}
-\]
+Let $$X_t$$ and $$Y_t$$ be continuous-time stochastic processes. The pair $$(X_t,Y_t)$$ is a ''hidden Markov model'' if
+* $$X_t$$ is a Markov process whose behavior is not directly observable ("hidden");
+* $$\operatorname{\mathbf{P}}(Y_{t_0} \in A \mid \{X_t \in B_t\}_{ t\leq t_0}) = \operatorname{\mathbf{P}}(Y_{t_0} \in A \mid X_{t_0} \in B_{t_0})$$,
 
-\subsection*{Emission Probabilities:}
-\[
-  P(O_t|S_t) =
-  \begin{bmatrix}
-    P(O_1|S_1) & P(O_2|S_1) & P(O_3|S_1) \\
-    P(O_1|S_2) & P(O_2|S_2) & P(O_3|S_2) \\
-    P(O_1|S_3) & P(O_2|S_3) & P(O_3|S_3) \\
-  \end{bmatrix}
-\]
-
-$$
+:for every $$t_0,$$ every Borel set $$A,$$ and every family of Borel sets $$\{B_t\}_{t \leq t_0}.$$ 
