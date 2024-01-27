@@ -15,6 +15,6 @@ Let $X_t$ and $Y_t$ be continuous-time stochastic processes. The pair $(X_t,Y_t)
 
 * $X_t$ is a Markov process whose behavior is not directly observable ("hidden");
 * $\mathbf{P}\bigl(Y_{t_0} \in A\ \bigl|\ \[X_t \in B_t \]_{t \leq t0} \bigr)=$
-* $\mathbf{P}\bigl(Y_{t_0} \in A\ \bigl|\ \[X_t \in B_t \]_{t \leq t0} \bigr)$
+* $\mathbf{P}\bigl(Y_{t_0} \in A\ \bigl|\ \[X_t0 \in B_t \]_{t \leq t0} \bigr)$
 
 :for every $t_0,$ every Borel set $A,$ and every family of Borel sets $\[B_t\]_{t \leq t_0}.$
