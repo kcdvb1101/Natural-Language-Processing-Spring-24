@@ -17,6 +17,6 @@ Let $X_t$ and $Y_t$ be continuous-time stochastic processes. The pair $(X_t,Y_t)
 * $\mathbf{P}\bigl(Y_{t_0} \in A\ \bigl|\ \[X_t \in B_t \]_{t \leq t0} \bigr)$
 
 
-* ㅤㅤㅤㅤㅤㅤ$=$ $\mathbf{P}\bigl(Y_{t_0} \in A\ \bigl|\ X_{t_0} \in \[B_{t_0}\bigr)$
+* ㅤㅤㅤㅤㅤㅤ= $\mathbf{P}\bigl(Y_{t_0} \in A\ \bigl|\ X_{t_0} \in \[B_{t_0}\bigr)$
 
 :for every $t_0,$ every Borel set $A,$ and every family of Borel sets $\[B_t\]_{t \leq t_0}.$
