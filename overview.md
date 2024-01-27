@@ -3,7 +3,7 @@ $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \
 
 ** Hidden Markov Model **
 
-$\prod_{i=0}^N \left( P(X_i \mid X_{i-1}) \right) $
+$\Pi_{i=0}^N \left( P(X_i \mid X_{i-1}) \right) $
 
 == Definition ==
 Let $X_n$ and $Y_n$ be discrete-time stochastic processes and $n\geq 1$. The pair $(X_n,Y_n)$ is a ''hidden Markov model'' if
