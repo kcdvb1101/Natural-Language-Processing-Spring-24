@@ -11,7 +11,7 @@ The problem with the above formulation is that if the number of features $n$ is 
 : $$p(C_k \mid \mathbf{x}) = \frac{p(C_k) \ p(\mathbf{x} \mid C_k)}{p(\mathbf{x})} \,$$
 
 Now Bayes classifiers assume that the features $x = (x_1 ... x_n)$ are independent so:
-$$ p(\mathbf{x} \mid C_k) = p(x_1 \mid C_k) \cdot p(x_2 \mid C_k) \cdot p(x_n \mid C_k)$$
+$$ p(\mathbf{x} \mid C_k) = p(x_{1} \mid C_k) \cdot p(x_{2} \mid C_{k}) * p(x_n \mid C_k)$$
 
 **The Cauchy-Schwarz Inequality**
 $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
