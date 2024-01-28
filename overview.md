@@ -1,5 +1,7 @@
 **Mathematical foundations of NLP**
 Objective: Reasonably deep understanding of classic to mainstream nlp techniques. Interview preparation, revision reference.
+
+
 **Bayes theorem and bayesian classifiers**
 
 Abstractly, naive Bayes is a conditional probability model: it assigns probabilities $p(C_k \mid x_1, \ldots, x_n)$ for each of the $K$ possible outcomes or ''classes'' $C_k$ given a problem instance to be classified, represented by a vector $\mathbf{x} = (x_1, \ldots, x_n)$ encoding some $n$ features (independent variables).
