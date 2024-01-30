@@ -72,3 +72,11 @@ Let $X_t$ and $Y_t$ be continuous-time stochastic processes. The pair $(X_t,Y_t)
 
 Question: What is Markov assumption/property?
 The Markov assumption states that the future state of a system depends only on its current state and is independent of how the system arrived at its current state. In other words, given the present state of the system, the future behavior of the system is not influenced by the sequence of events that preceded the current state.
+
+Vocabulary, word, document, and corpus:
+Corpus: set of unique words used in the text corpus is referred to as the vocabulary. When processing raw text for NLP, everything is done around the vocabulary.
+*character based vocabulary
+*word-based vocabularies
+*word: item from vocabulary indexed by {1...V}. Which is represented as unit-basis vectors. 
+*document: sequence of n words
+*corpus: Collection of M documents
