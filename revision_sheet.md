@@ -69,3 +69,6 @@ Let $X_t$ and $Y_t$ be continuous-time stochastic processes. The pair $(X_t,Y_t)
  ㅤㅤ= $\mathbf{P}\bigl(Y_{t_0} \in A\ \bigl|\ X_{t_0} \in \[B_{t_0}\bigr)$
 
 :for every $t_0,$ every Borel set $A,$ and every family of Borel sets $\[B_t\]_{t \leq t_0}.$
+
+Question: What is Markov assumption/property?
+The Markov assumption states that the future state of a system depends only on its current state and is independent of how the system arrived at its current state. In other words, given the present state of the system, the future behavior of the system is not influenced by the sequence of events that preceded the current state.
